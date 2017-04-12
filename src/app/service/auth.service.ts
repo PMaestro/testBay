@@ -17,8 +17,6 @@ export class Auth {
   }
   });
 
-   
-
   constructor(private router: Router) {
     // Add callback for lock `authenticated` event
    
