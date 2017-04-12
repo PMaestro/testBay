@@ -1,0 +1,14 @@
+
+
+<div class="btn-group btn-group-justified" role="group" aria-label="..."> 
+  <div class="btn-group" role="group" *ngIf="auth.authenticated()"> 
+    <button type="button" class="btn btn-default" (click)="auth.logout()" >Log out</button>
+    
+  </div>
+</div>
+<script></script>
+ <div class="col-md-12 center-block">
+    <h1 class="text-center" *ngIf="auth.authenticated()">
+       Lorem Ipsum
+    </h1>
+  </div>
