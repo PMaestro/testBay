@@ -14,6 +14,7 @@ export class InitComponent implements OnInit {
 
   ngOnInit() {
     if(!this.auth.authenticated()){
+      //redirect
       let destination:string = "/";
       this.route.navigate([destination]);
     }

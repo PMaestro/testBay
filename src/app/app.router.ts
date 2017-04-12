@@ -5,7 +5,7 @@ import {HomeComponent} from './home/home.component';
 import {InitComponent} from './init/init.component';
 import {AuthGuard} from './service/auth.guard';
 
-
+//app routes definitions
 const appRoutes = [
     {
         path: '', 

@@ -9,4 +9,7 @@ import { Auth } from './service/auth.service';
 })
 export class AppComponent {
   title = 'app works!';
+   constructor(private auth: Auth) {
+
+  }
 }

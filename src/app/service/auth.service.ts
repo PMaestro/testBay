@@ -19,7 +19,7 @@ export class Auth {
 
   constructor(private router: Router) {
     // Add callback for lock `authenticated` event
-   
+    //Add callback using router
     this.lock.on("authenticated", (authResult) => {
       localStorage.setItem('id_token', authResult.idToken);
       if(localStorage.getItem('id_token')!=null) {
@@ -32,6 +32,8 @@ export class Auth {
     });
    
   }
+
+  
 
 
   public login() {

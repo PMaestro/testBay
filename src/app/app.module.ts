@@ -11,8 +11,7 @@ import { InitComponent } from './init/init.component';
 import { routing, appRoutingProviders } from './app.router';
 import { Auth } from './service/auth.service';
 import {AuthGuard} from './service/auth.guard';
-//import {AUTH_PROVIDERS} from  'angular2-jwt';
-
+//add the providers
 @NgModule({
   declarations: [
     AppComponent,
